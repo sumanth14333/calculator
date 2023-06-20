@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="shortcut icon" href="cal.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="value">
+            <div>Value 1 :&MediumSpace;<input type="number" placeholder="Enter first number" id="n1"></div>
+        </div>
+        <div id="result"></div>
+        <div id="screen"></div>
+        <div class="btn">
+            <input type="submit" value="add" id="add">
+            <input type="submit" value="sub" id="sub">
+            <input type="submit" value="mul" id="mul">
+            <input type="submit" value="div" id="div">
+        </div>
+        <div class="end">
+            <input type="submit" value="=" class="reload" id="answer">
+            <input type="submit" value="Reload" class="reload" onclick="window.location.reload()">
+        </div>
+    </div>
+    <script src="design.js" ></script>
+</body>
+</html>
